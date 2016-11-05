@@ -2,5 +2,8 @@ name="Nemo"
 path="mod/nemo"
 tags={
 	"Gameplay"
+  "Buildings"
+  "Technologies"
+  "Species"
 }
-supported_version="1.3.1"
+supported_version="1.3.*"
