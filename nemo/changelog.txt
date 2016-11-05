@@ -1,0 +1,261 @@
+Nemo Mod
+
+Traits d'espèces (11)
+
+Pacifique
+coût : -2
+Interdit: Guerrier
+Effets :
+Santé des armées -20%
+Dégâts des armées -25%
+Moral des armées -25%
+Description rp : Cette espèce est dépourvu d'attributs physiques et mentales efficace pour ce qui est de faire la guerre.
+
+Primitif
+coût: -2
+Interdits : Intelligent, Ingénieurs, nés, Physiciens nés, Sociologues nés, Apprennent vite, Élève lents.
+Effets :
+Gain d'expérience des leaders : -25%
+Rendement - physique : -10%
+Rendement - ingénierie : -10%
+Rendement - société : -10%
+Description rp : Cette espèce est possède des capacités cognitifs inférieurs aux autre espèce ayant maitrisé le voyage spatial.
+
+Très faible
+coût : -2
+Interdits : Faible, Fort, Très fort
+Dégâts des armées -40%
+Santé des armées -20%
+Minéraux -10%
+Description rp : Cet espèce possède une constitution et une force nettement inférieur à celle des autres races conscientes.
+
+Éphémère
+coût: -2
+Interdits : Vénérable, Endurant, Non endurant
+Effets :
+Âge des leaders : -25 ans.
+Description rp : L'espérance de vie naturelle de cette espèce est bien plus courte que la normale.
+
+Délicat
+Coût : -1
+Interdits : Résilient
+Effet :
+Vie des garnisons -50%
+Défense des fortifications -50%
+Description rp : Les membres de cette espèce sont particulièrement fragiles - ce qui serait une blessure mineure pour d'autres leur est fatal.
+
+Radio-résistant
+coût: 1
+Interdit : Non adaptable
+Effets : 
+Habitabilité (mondes radioactifs) : +80%
+Description rp : Cette espèce est capable de résister à des doses particulièrement importante de radiation.
+
+Guerrier
+coût : 2
+Interdit: Pacifiste
+Effets :
+Dégâts des armées +15%
+Moral des armées +15%
+Santé des armées +10%
+Description rp : Cette espèce possède des attributs physiques et mentales particulièrement efficace quand il s'agit de faire la guerre.
+
+Ingénieux
+Coût: 2
+Interdits : Décadent
+Effet :
+Production de ressource +5%
+Description rp : Les membres de cette espèces sont pleins de ressources et montre une habileté supérieure dans tous les domaines.
+
+Très grégaire
+Coût: 3
+Interdits : Communautaire, Solitaire
+Effets :
+Bonheur +10
+Description rp : Les membres de cette espèce vivent en parfaite harmonie les uns avec les autres.
+
+Mémoire génétique
+Coût : 4
+Interdit : Talentueux.
+Effets
+Niveau de compétence des leaders : +2
+Description rp : Cette espèce conserve la connaissance des générations passées.
+
+Esprit de ruche
+coût : 4
+Interdits : Déviant, Conformiste
+Effets :
+Divergence -40%
+Description rp : Cette espèce ne forme qu'une seule entité connecté par un lien mental.
+
+Traits des leaders (2)
+
+Ancien dirigeant
+Interdits : leader_trait_army_veteran, leader_trait_retired_fleet_officer
+Effets :
+Bonheur de la planète +3%
+Augmentation des frontières de la planète +10%
+Description rp : Ce leader était un ancien dirigeant du gouvernement.
+
+Leader nataliste
+Effet :
+Temps de croissance -15%
+Description rp : Ce leader est spécialisé dans le renouvellement des générations.
+
+Trait des dirigeants (2)
+
+Génie scientifique
+Effets :
+Vitesse de recherche scientifique +10%
+Description rp : Ce dirigeant est un scientifique hors pair.
+
+Visionnaire
+Effets :
+Gain d'influence mensuelle +0.5
+Augmentation des frontières +10%
+Description rp : Ce dirigeant est un véritable visionnaire.
+
+Ressources stratégique local (2)
+
+Épice de prescience
+Poids : 1.5 et 5 (Mondes Gaïa et Anneau-monde)
+Description rp : L'épice de prescience.
+
+Micro-singularité
+Poids : 1.5 et 3 (Mondes Gaïa et Anneau-monde)
+Description rp : Une singularité métaphysique.
+
+Technologie (5)
+
+Raffinage d'épice
+Coût : 1800
+Poids : 65
+Tier : 2
+Type : Société
+Catégorie : Biologie
+Rare : Oui
+Prérequis : Techs hydropincs
+Bonus : Leader expertise biology et/ou présence d'Épice de prescience sur une de ses planètes
+Description rp : Permet de récolter et raffiner l'Épice de prescience.
+
+Étude des micro-singularités
+Coût : 1800
+Poids : 65
+Tier : 2
+Type : Physique
+Catégorie : Voidcraft
+Rare : Oui
+Prérequis : Tech sensors 3
+Bonus : Leader expertise voidcraft et/ou présence de Micro-singularité sur une de ses planètes
+Description rp : Permet d'étudier les micro-singularités présentent sur certaine planète.
+
+Communication interplanétaire
+Coût : 600
+Poids : 90
+Tier : 1
+Type : Société
+Catégorie : Statecraft
+Rare : Non
+Prérequis : Unification planétaire
+Bonus : Leader expertise statecraft.
+Description rp : Cette technologie permet de communiquer entre les colonies de manière subluminique sans avoir recours à des vaisseaux.
+
+Communication interplanétaire longue portée
+Coût : 720
+Poids : 85
+Tier : 1
+Type : Société
+Catégorie : Statecraft
+Rare : Oui
+Prérequis : Communication interplanétaire
+Bonus : Leader expertise statecraft.
+Description rp : Cette technologie permet de communiquer entre les colonies de manière subluminique sur de très longue distance sans avoir recours à des vaisseaux.
+
+Stockage d'énergie avancée
+Coût : 1800
+Poids : 65
+Tier : 2
+Type : Ingénierie
+Catégorie : Industrie
+Rare : Oui
+Prérequis : tech_power_hub_2
+Bonus : leader_trait_expertise_industry
+Description rp : Permet la construction de centrales d'accumulation d'énergie permettent la prouesse de stocker de grande quantité d'énergie.
+
+Bâtiments (3)
+
+Raffinerie d'épice
+Temps de construction : 360j
+Coût : 250m
+Technologie : Raffinage d'épice
+Requit : Épice de prescience sur la case
+Produit : +1 de nourriture, +0.3 d'influence.
+Description rp : Ce bâtiment permet de rafiner l'épice pour la rendre consommable. Non traité l'épice est mortel pour la plupart des créatures vivantes.
+
+Centre d'étude des singularités
+Temps de construction : 360j
+Coût : 250m
+Technologie : Étude des micro-singularités
+Requit : Micro-singularité sur la case.
+Produit : +5 de recherche en Physique, +5 de recherche en Ingénierie.
+Description rp : Ce bâtiment permet d'étudier les singularités propre aux planètes.
+
+Centrale d'accumulation
+Temps de construction : 180j
+Coût : 120m
+Technologie : Stockage d'énergie avancée
+Produit : +1 d'énergie sur les cases adjacentes. +1000 d'énergie max.
+Description rp : Ce bâtiment permet l'exploit d'accumuler des quantités phénoménales d'énergie.
+
+Décrets (4)
+
+Écoles prestigieuses
+Type : Empire
+Influence : -1
+Effet : +25% d'expérience pour les leaders.
+Description rp : Le gouvernement met un point d'honneur à financer la création d'école de qualité afin de former les élites de la nation.
+
+Projet d'infrastructure
+Type : Empire
+Influence : -1
+Effet : -10% de temps de construction, -10% de coût de construction, +10% de nourriture requise
+Description rp : Un décret afin de développer efficacement les infrastructure planétaires de la nation.
+
+Renforcement administratif
+Type : Empire
+Technologie nécessaire : Communication interplanétaire
+Influence : -1
+Effet : +2 Core planet system
+Restriction : Ne pas avoir activé La Grande administration
+Description rp : Un effort important est fait pour garder en contact permanent via des communications subluminique l’ensemble des colonies de la nation.
+
+La Grande administration
+Type : Empire
+Technologie nécessaire : Communication interplanétaire longue portée
+Influence : -2
+Effet : +5 Core planet system
+Restriction : Ne pas avoir activé Renforcement administratif
+Description rp : Un effort important est fait pour garder en contact permanent via des communications subluminique l’ensemble des colonies de la nation.
+
+Listes de noms (1)
+
+Nemo
+
+Noms de vaisseaux générique : Serenity,  Valkyrie Icarus Elysium Heighliner
+Corvette : X-301 F-302 "TIE fighters" "Starfighter" Carryall
+Destroyer : Serenity Endurance Orion Frigate
+Cruiser : Normandy Hyperion "Daedalus-class battlecruiser" "USS Enterprise" 
+Battleship : Battlestar "Imperial-class Star Destroyer" Titan "Starship Lighter"
+Noms de flottes :
+Planète générique : Avalon Olympia Ix "Salusa Secundus" Terminus Trantor Solaria Aurora Caprica Asuras Tollan Coruscant "The World of Tiers" Diaspar Albion Ys Omale Hypérion Raylicon
+Planète déserte : Dune Arrakis Dakara Tatooine Abydos Geonosis Klendathu Korriban Vulcan
+Planète aride : Lebanon Antioch "Giedi Prime" Chulak Mustafar "Dark Planet" "Helion Prime" Beaumonde Betelgeuse Resurgam
+Planète tropical : Icarus Dantooine "Roku San" Dantana "Crématoria" Antares
+Planète continental : Asgard Caladan Rakis Naboo "Omicron Persei 8" "Tau'ri" Pern Ténébreuse Ariel Helliconia Tschaï
+Planète Gaïa : Eden Elysium Utopia Rama Mathusalem
+Planète océan : Atlantis Lantia Kamino Alpha Thalassa Tiamat Kithrup Aldébaran
+Planète tundra :Furya Titan
+Planète arctique : Hoth UV-6 Comporellon
+Noms de leaders :
+"Gaïus Baltar" "William Adama" "Kara Thrace"
+"Hari Seldon" "Le Mulet" "Bel Riose" "Han Pritcher" "Susan Calvin" "Elijah Baley" "R. Daneel Olivaw" "Han Fastolfe" "Vasilia Fastolfe"

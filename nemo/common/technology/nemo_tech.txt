@@ -132,7 +132,7 @@ tech_interplanetary_communication_long_range = {
   area = society
   tier = 1
   category = { statecraft }
-  prerequisites = { "tech_effective_administration" }
+  prerequisites = { "tech_interplanetary_communication" }
   is_rare = yes
   weight = @tier1weight4
 
