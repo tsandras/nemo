@@ -1,0 +1,189 @@
+##########################################
+#     Nemo strategic resources techs     #
+##########################################
+
+@tier2cost3 = 1800
+@tier2weight3 = 65
+@tier2cost2 = 1400
+@tier2weight2 = 70
+@tier1cost2 = 480
+@tier1weight2 = 95
+@tier1cost3 = 600
+@tier1weight3 = 90
+@tier1cost4 = 720
+@tier1weight4 = 85
+
+#Prescience spice Refining
+tech_mine_spice = {
+  cost = @tier2cost3
+  area = society
+  tier = 2
+  category = { biology }
+  prerequisites = { "tech_hydroponics" }
+  is_rare = yes
+  weight = @tier2weight3
+  
+  weight_modifier = {
+    factor = 2
+    modifier = {
+      factor = 2
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_biology"
+      }
+    }
+    modifier = {
+      factor = 1
+      NOT = {
+        any_owned_planet = {
+          any_tile = {
+            has_resource = {
+              type = sr_spice
+              amount > 0
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  ai_weight = {
+    factor = 4 #strategic resource
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = society
+        has_trait = "leader_trait_expertise_biology"
+      }
+    }
+  }
+}
+
+#Singularity Refining
+tech_mine_singularity = {
+  cost = @tier2cost3
+  area = physics
+  tier = 2
+  category = { voidcraft }
+  prerequisites = { "tech_sensors_3" }
+  is_rare = yes
+  weight = @tier2weight3
+  
+  weight_modifier = {
+    factor = 2
+    modifier = {
+      factor = 2
+      research_leader = {
+        area = physics
+        has_trait = "leader_trait_expertise_voidcraft"
+      }
+    }
+    modifier = {
+      factor = 1
+      NOT = {
+        any_owned_planet = {
+          any_tile = {
+            has_resource = {
+              type = sr_singularity
+              amount > 0
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  ai_weight = {
+    factor = 4 #strategic resource
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = physics
+        has_trait = "leader_trait_expertise_voidcraft"
+      }
+    }
+  }
+}
+
+#Effective administration
+tech_interplanetary_communication = {
+  cost = @tier1cost3
+  area = society
+  tier = 1
+  category = { statecraft }
+  prerequisites = { "tech_planetary_unification" }
+  weight = @tier1weight3
+  
+  weight_modifier = {
+    factor = 2
+    modifier = {
+      factor = 2
+      research_leader = {
+        area = physics
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+}
+
+#The Grand administration
+tech_interplanetary_communication_long_range = {
+  cost = @tier1cost4
+  area = society
+  tier = 1
+  category = { statecraft }
+  prerequisites = { "tech_effective_administration" }
+  is_rare = yes
+  weight = @tier1weight4
+
+  modifier = {
+    pop_ethic_shift = -0.05
+  }
+  
+  weight_modifier = {
+    factor = 2
+    modifier = {
+      factor = 2
+      research_leader = {
+        area = physics
+        has_trait = "leader_trait_expertise_statecraft"
+      }
+    }
+  }
+}
+
+#Energy Processing
+tech_energy_silo_1 = {
+  cost = @tier2cost3
+  area = engineering
+  tier = 2
+  category = { industry } 
+  prerequisites = { "tech_power_hub_2" }
+  is_rare = yes
+  weight = @tier2weight3
+    
+  # unlock energy processing plant 1
+  modifier = {
+    max_energy = 1000
+  } 
+  
+  weight_modifier = {
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = engineering
+        has_trait = "leader_trait_expertise_industry"
+      }     
+    }
+  }
+  
+  ai_weight = {
+    modifier = {
+      factor = 1.25
+      research_leader = {
+        area = engineering
+        has_trait = "leader_trait_expertise_industry"
+      }
+    }
+  }
+}

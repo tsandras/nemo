@@ -1,0 +1,118 @@
+##########################
+#     Nemo buildings     #
+##########################
+
+spice_plant = {
+  base_buildtime = 360
+  icon = "spice_plant"
+  
+  cost = {
+    minerals = 250
+  }
+  
+  produced_resources = {
+    food = 1
+    influence = 0.3
+  }
+
+  required_resources = {
+    energy = 2
+  }
+  
+  prerequisites = {
+    "tech_mine_spice"
+  }
+  
+  allow = {
+    AND = {
+      custom_tooltip_fail = {
+        text = "requires_building_capital_1"
+        planet = {
+          OR = {
+            has_building = "building_capital_1"
+            has_building = "building_capital_2"
+            has_building = "building_capital_3"
+          }
+        }
+      }
+      custom_tooltip_fail = {
+        text = "requires_spice"
+        tile = {
+          has_resource = {
+            type = sr_spice
+            amount > 0
+          }
+        }
+      }
+    }
+  }
+}
+
+singularity_plant = {
+  base_buildtime = 360
+  icon = "singularity_plant"
+  
+  cost = {
+    minerals = 250
+  }
+  
+  produced_resources = {
+    physics_research = 5
+    engineering_research = 5
+  }
+
+  required_resources = {
+    energy = 2
+  }
+  
+  prerequisites = {
+    "tech_mine_singularity"
+  }
+  
+  allow = {
+    AND = {
+      custom_tooltip_fail = {
+        text = "requires_building_capital_1"
+        planet = {
+          OR = {
+            has_building = "building_capital_1"
+            has_building = "building_capital_2"
+            has_building = "building_capital_3"
+          }
+        }
+      }
+      custom_tooltip_fail = {
+        text = "requires_singularity"
+        tile = {
+          has_resource = {
+            type = sr_singularity
+            amount > 0
+          }
+        }
+      }
+    }
+  }
+}
+
+building_energy_silo_1 = {
+  base_buildtime = 180
+  
+  cost = {
+    minerals = 120
+  }
+
+  prerequisites = {
+    "tech_energy_silo_1"
+  }
+  
+  country_modifier = {
+    max_energy = 1000
+  }
+  
+  adjacency_bonus = {
+    resource_energy_add = 1
+  }
+  
+  upgrades = {
+  }
+}

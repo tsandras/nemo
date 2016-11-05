@@ -1,0 +1,17 @@
+####################################
+#     Nemo strategic resources     #
+####################################
+
+# Prescience spice
+sr_spice = {
+  is_rare = yes
+  is_planet_local = yes
+  AI_category = strategic_resource
+}
+
+# Prescience spice
+sr_singularity = {
+  is_rare = yes
+  is_planet_local = yes
+  AI_category = strategic_resource
+}

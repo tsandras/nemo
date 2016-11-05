@@ -1,0 +1,76 @@
+﻿l_french:
+
+ # Species traits
+ trait_craven:0 "Pacifique"
+ trait_craven_desc:0 "Cette espèce est dépourvu d'attributs physiques et mentales efficace pour ce qui est de faire la guerre."
+ trait_primitif:0 "Primitif"
+ trait_primitif_desc:0 "Cette espèce est possède des capacités cognitifs inférieurs aux autre espèce ayant maitrisé le voyage spatial."
+ trait_very_weak:0 "Très faible"
+ trait_very_weak_desc:0 "Cet espèce possède une constitution et une force nettement inférieur à celle des autres races conscientes."
+ trait_ephemeral:0 "Éphémère"
+ trait_ephemeral_desc:0 "L'espérance de vie naturelle de cette espèce est bien plus courte que la normale."
+ trait_delicate:0 "Délicat"
+ trait_delicate_desc:0 "Les membres de cette espèce sont particulièrement fragiles - ce qui serait une blessure mineure pour d'autres leur est fatal."
+ trait_radioactivity_resistance:0 "Radio-résistant"
+ trait_radioactivity_resistance_desc:0 "Cette espèce est capable de résister à des doses particulièrement importante de radiation."
+ trait_warrior:0 "Guerrier"
+ trait_warrior_desc:0 "Cette espèce possède des attributs physiques et mentales particulièrement efficace quand il s'agit de faire la guerre."
+ trait_resourceful:0 "Ingénieux"
+ trait_resourceful_desc:0 "Les membres de cette espèces sont pleins de ressources et montre une habileté supérieure dans tous les domaines."
+ trait_extremely_communal:0 "Très grégaire"
+ trait_extremely_communal_desc:0 "Les membres de cette espèce vivent en parfaite harmonie les uns avec les autres."
+ trait_genetic_memory:0 "Mémoire génétique"
+ trait_genetic_memory_desc:0 "Cette espèce conserve la connaissance des générations passées."
+ trait_hive_mind:0 "Esprit de ruche"
+ trait_hive_mind_desc:0 "Cette espèce ne forme qu'une seule entité connecté par un lien mental."
+
+ # Leaders traits
+ leader_trait_retired_political:0 "Ancien Dirigeant"
+ leader_trait_retired_political_desc:0 "Ce leader était un ancien dirigeant du gouvernement."
+ leader_trait_energetic_encourager:0 "Leader nataliste"
+ leader_trait_energetic_encourager_desc:0 "Ce leader est spécialisé dans le renouvellement des générations."
+
+ # Ruler traits
+ trait_ruler_scientific_mind:0 "Génie scientifique"
+ trait_ruler_scientific_mind_desc:0 "Ce dirigeant est un scientifique hors pair."
+ trait_ruler_visionary:0 "Visionnaire"
+ trait_ruler_visionary_desc:0 "Ce dirigeant est un véritable visionnaire."
+
+ # Resources
+ sr_spice:0 "Épice de prescience"
+ sr_spice_desc:0 "L'épice de prescience"
+ sr_singularity:0 "Micro-singularité"
+ sr_singularity_desc:0 "Une singularité métaphysique"
+
+ # Technologies
+ tech_mine_spice:0 "Raffinage d'épice"
+ tech_mine_spice_desc:0 "Permet de récolter et raffiner l'Épice de prescience"
+ tech_mine_singularity:0 "Étude des micro-singularités"
+ tech_mine_singularity_desc:0 "Permet d'étudier les micro-singularités présentent sur certaine planète."
+ tech_interplanetary_communication:0 "Communication interplanétaire"
+ tech_interplanetary_communication_desc:0 "Cette technologie permet de communiquer entre les colonies de manière subluminique sans avoir recours à des vaisseaux."
+ tech_interplanetary_communication_long_range:0 "Communication interplanétaire longue portée"
+ tech_interplanetary_communication_long_range_desc:0 "Cette technologie permet de communiquer entre les colonies de manière subluminique sur de très longue distance sans avoir recours à des vaisseaux."
+ tech_energy_silo_1:0 "Stockage d'énergie avancée"
+ tech_energy_silo_1_desc:0 "Permet la construction de centrales d'accumulation d'énergie permettent la prouesse de stocker de grande quantité d'énergie."
+  
+ # Buldings
+ spice_plant:0 "Rafinerie d'épice"
+ spice_plant_desc:0 "Ce bâtiment permet de rafiner l'épice pour la rendre consommable. Non traité l'épice est mortel pour la plupart des créatures vivantes."
+ singularity_plant:0 "Centre d'étude des singularités"
+ singularity_plant_desc:0 "Ce bâtiment permet d'étudier les singularités propre aux planètes."
+ building_energy_silo_1:0 "Centrale d'accumulation"
+ building_energy_silo_1_desc:0 "Ce bâtiment permet l'exploit d'accumuler des quantités phénoménales d'énergie."
+
+ # Edicts
+ edict_prestigious_schools:0 "Écoles prestigieuses"
+ edict_prestigious_schools_desc:0 "Le gouvernement met un point d'honneur à financer la création d'école de qualité afin de former les élites de la nation."
+ edict_infrastructure_project:0 "Projet d'infrastructure"
+ edict_infrastructure_project_desc:0 "Un décret afin de développer efficacement les infrastructure planétaires de la nation."
+ edict_effective_administration:0 "Renforcement administratif"
+ edict_effective_administration_desc:0 "Un effort important est fait pour garder en contact permanent via des communications subspacial l'enssemble des colonies de la nation."
+ edict_grand_administration:0 "La Grande administration"
+ edict_grand_administration_desc:0 "Un effort important est fait pour garder en contact permanent via des communications subluminique l’ensemble des colonies de la nation."
+
+ # Others
+ name_list_nemo:0 "Liste de Nemo"

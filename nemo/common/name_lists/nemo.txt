@@ -1,0 +1,162 @@
+### Great list of name
+
+nemo = {
+  
+  ### SHIPS
+  ship_names = {
+    generic = {
+      Serenity,  Valkyrie Icarus Elysium Heighliner
+    }
+    corvette = {X-301 F-302 "TIE fighters" "Starfighter" Carryall}
+    constructor = {}
+    colonizer = {}
+    science = {}
+    destroyer = {Serenity Endurance Orion Frigate}
+    cruiser = {Normandy Hyperion "Daedalus-class battlecruiser" "USS Enterprise"}
+    battleship = {Battlestar "Imperial-class Star Destroyer" Titan "Starship Lighter"}
+    orbital_station = { }
+    mining_station = { }
+    research_station = { }
+    wormhole_station = { }
+    terraform_station = { }
+    observation_station = { }
+    outpost_station = {}
+    transport = {}
+    military_station_small = {}
+    military_station_medium = {}
+    military_station_large = {}
+  }
+
+  fleet_names = {
+    random_names = {
+      "The Hoplite Fleet" "The Phalanx Fleet" "The Centurion Fleet" "The Immortal Fleet" "The Musketeer Fleet" "The Millenial Fleet"
+    }
+    sequential_name = "%O% Fleet"
+  }
+  
+  army_names = {
+  
+    defense_army = {
+      sequential_name = "%O% Planetary Guard"
+    }
+
+    assault_army = {
+      sequential_name = "%O% Expeditionary Force"
+    }
+    
+    slave_army = {
+      sequential_name = "%O% Indentured Rifles"
+    }
+    
+    clone_army = { 
+      sequential_name = "%O% Clone Army"
+    }
+    
+    robotic_army = {
+      sequential_name = "%O% Hunter-Killer Group"
+    }
+    
+    android_army = {
+      sequential_name = "%O% Synthetic Rangers"
+    }
+    
+    psionic_army = { 
+      sequential_name = "%O% Psi Commando"
+    }
+    
+    xenomorph_army = {
+      sequential_name = "%O% Bio-Warfare Division"
+    }
+    
+    gene_warrior_army = {
+      random_names = {
+        "SARC-A 'Gladiators'" "SARC-B 'Widowmakers'" "SARC-C 'Immortals'" "SARC-D 'Berserkers'" "SARC-E 'Assassins'"
+        "SARC-F 'Reapers'" "SARC-G 'Nighthawks'" "SARC-H 'Desperados'" "SARC-I 'Grey Knights'" "SARC-J 'Roughnecks'" 
+      }
+      sequential_name = "%O% Bio-Engineered Squadron"
+    }
+  }
+
+  ### PLANETS
+
+  planet_names = {
+
+    generic = {
+      names = {
+        Avalon Olympia Ix "Salusa Secundus" Terminus Trantor Solaria Aurora Caprica Asuras Tollan Coruscant "The World of Tiers"
+        Diaspar Albion Ys Omale Hypérion Raylicon
+      }
+    }
+    
+    pc_desert = {
+      names = {
+        Dune Arrakis Dakara Tatooine Abydos Geonosis Klendathu Korriban Vulcan
+      }
+    }
+    
+    pc_arid = {
+      names = {
+        Lebanon Antioch "Giedi Prime" Chulak Mustafar "Dark Planet" "Helion Prime" Beaumonde Betelgeuse
+      }
+    }
+    
+    pc_tropical = {
+      names = {
+        Icarus Dantooine "Roku San" Dantana "Crématoria" Antares
+      }
+    }
+    
+    pc_continental = {
+      names = {
+        Asgard Caladan Rakis Naboo "Omicron Persei 8" "Tau'ri" Pern Ténébreuse Ariel Helliconia
+      }
+    }
+    
+    pc_gaia = {
+      names = {
+        Eden Elysium Utopia Rama Mathusalem
+      }
+    }
+    
+    pc_ocean = {
+      names = {
+        Atlantis Lantia Kamino Alpha Thalassa Tiamat Kithrup Aldébaran
+      }
+    }
+    
+    pc_tundra = {
+      names = {
+        Furya Titan
+      }
+    }
+    
+    pc_arctic = {
+      names = {
+        Hoth UV-6 Comporellon
+      }
+    }
+  }
+
+  ### CHARACTERS
+  character_names = {
+    default = {
+      # A complete name
+      full_names = {
+        "Gaïus Baltar" "William Adama" "Kara Thrace" 
+        "Hari Seldon" "Le Mulet" "Bel Riose" "Han Pritcher" "Susan Calvin" "Elijah Baley" "R. Daneel Olivaw" "Han Fastolfe" "Vasilia Fastolfe"
+      }
+      
+      # Always combined with a second name
+      first_names = {
+      }
+      
+      # Always combined with a first name
+      second_names = {
+      }
+
+      regnal_first_names = {}
+      
+      regnal_second_names = {}
+    }
+  }
+}

@@ -1,0 +1,27 @@
+###########################
+# Governor Traits of Nemo #
+###########################
+
+leader_trait_retired_political = {
+  cost = 1
+  modification = no
+  icon = "gfx/interface/icons/traits/leader_traits/example_trait_gargantuan.dds"
+  modifier = {
+    pop_happiness = 0.03
+    planet_border_mult = 0.10
+  }
+  leader_trait = yes
+  leader_class = { governor }
+  opposites = { "leader_trait_army_veteran" "leader_trait_retired_fleet_officer" "leader_trait_old_scientist" }
+}
+
+leader_trait_energetic_encourager = {
+  cost = 1
+  modification = no
+  icon = "gfx/interface/icons/traits/trait_rapid_breeders.dds"
+  modifier = {
+    pop_growth_req_mult = -0.15
+  }
+  leader_trait = yes
+  leader_class = { governor }
+}

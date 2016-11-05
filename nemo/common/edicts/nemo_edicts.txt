@@ -1,0 +1,83 @@
+#######################
+#     Nemo edicts     #
+#######################
+
+country_edict = {
+  name = "prestigious_schools"
+  modifier = {
+    species_leader_exp_gain = 0.25
+  }
+  
+  influence_cost = 1
+    
+  allow = {
+  }
+  
+  ai_weight = {
+    weight = 0
+  } 
+}
+
+country_edict = {
+  name = "infrastructure_project"
+  modifier = {
+    planet_building_cost_mult = -0.10
+    building_time_mult = -0.10
+    pop_food_req_mult = 0.10
+  }
+  
+  influence_cost = 1
+  
+  allow = {
+  }
+  
+  ai_weight = {
+    weight = 0
+  } 
+}
+
+country_edict = {
+  name = "effective_administration"
+  modifier = {
+    country_core_sector_system_cap = 2
+  }
+  
+  influence_cost = 1
+    
+  allow = {
+    NOT = {
+      has_country_edict = grand_administration
+    }
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+
+  prerequisites = {
+    "tech_interplanetary_communication"
+  }
+}
+
+country_edict = {
+  name = "grand_administration"
+  modifier = {
+    country_core_sector_system_cap = 5
+  }
+  
+  influence_cost = 2
+    
+  allow = {
+    NOT = {
+      has_country_edict = effective_administration
+    }
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+
+  prerequisites = {
+    "tech_interplanetary_communication_long_range"
+  }
+}

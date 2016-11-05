@@ -1,0 +1,62 @@
+﻿l_english:
+
+ # Species traits
+ trait_primitif:0 "Primitif"
+ trait_primitif_desc:0 "Il est vraiment pas très malin !\n"
+ trait_radioactivity_resistance:0 "Résistance à la radioactivité"
+ trait_radioactivity_resistance_desc:0 "Vraiment très fort !\n"
+ trait_ephemeral:0 "Éphémère"
+ trait_ephemeral_desc:0 "Cette espèce vie peu de temps.."
+ trait_warrior:0 "Guerrier"
+ trait_warrior_desc:0 "Bien avant la découverte du FTL cet espèce à utilisé la technologie pour s'améliorer"
+ trait_genetic_memory:0 "Mémoire génétique"
+ trait_genetic_memory_desc:0 "Cette espèce concerve la connaissance des générations passées"
+ trait_hive_mind:0 "Esprit de ruche"
+ trait_hive_mind_desc:0 "Cette espèce possède un esprit de ruche."
+ trait_very_weak:0 "Très faible"
+ trait_very_weak_desc:0 "Cet espèce est vraiment très faible"
+ trait_degeneration:0 "Dégénérescence"
+ trait_degeneration_desc:0 "Cet espèce à commencé à dégénérer bien avant la découverte du FTL"
+ trait_naturalist:0 "Naturaliste"
+ trait_naturalist_desc:0 "Une espèce soucieuse de vivre en harmonie avec la nature."
+ trait_extremely_communal:0 "Très grégaire"
+ trait_extremely_communal_desc:0 "Cette espèce vie ne parfaite harmonie."
+ trait_craven:0 "Pacifique"
+ trait_craven_desc:0 "Une espèce qui n'aime pas se battre"
+ trait_resourceful:0 "Ingénieux"
+ trait_resourceful_desc:0 "Pleins de ressources."
+ trait_delicate:0 "Délicat"
+ trait_delicate_desc:0 "N'est pas fait pour le combat."
+
+ # Leaders traits
+ leader_trait_retired_political:0 "Ancien Dirigeant"
+ leader_trait_retired_political_desc:0 "Ce leader était un ancien dirigeant du gouvernement"
+ leader_trait_energetic_encourager:0 "Énergique encourageur"
+ leader_trait_energetic_encourager_desc:0 "Ce leader est spécialisé dans le renouvellement des générations."
+
+ # Ruler traits
+ trait_ruler_scientific_mind:0 "Génie scientifique"
+ trait_ruler_scientific_mind_desc:0 "Ce dirigeant est un scientifique hors pair."
+ trait_ruler_visionary:0 "Visionnaire"
+ trait_ruler_visionary_desc:0 "Toujours capable de voir plus loin."
+
+ # Resources
+ sr_spice:0 "Épice de prescience"
+ sr_spice_desc:0 "L'épice de prescience"
+ sr_singularity:0 "Singularité métaphysique"
+ sr_singularity_desc:0 "Une singularité métaphysique"
+
+ # Technologies
+ tech_mine_spice:0 "Raffinage d'épice"
+ tech_mine_spice_desc:0 "Permet de récolter l'Épise de prescience."
+ tech_mine_singularity:0 "Science des micro-singularités"
+ tech_mine_singularity_desc:0 "Permet d'étudier les singularités de la planète."
+  
+ # Buldings
+ spice_plant:0 "Rafinerie d'épice"
+ spice_plant_desc:0 "Permet de rafiner l'épice pour la rendre consommable. Non traité l'épice est mortel pour la plupart des créatures vivantes."
+ singularity_plant:0 "Accélérateur de particule"
+ singularity_plant_desc:0 "Permet d'étudier les singularités propre aux planètes."
+
+ # Others
+ name_list_nemo:0 "Liste de Nemo"
