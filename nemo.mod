@@ -2,8 +2,10 @@ name="Nemo"
 path="mod/nemo"
 tags={
 	"Gameplay"
-  "Buildings"
-  "Technologies"
-  "Species"
+	"Buildings"
+	"Technologies"
+	"Species"
 }
+picture="nemo.jpg"
+remote_file_id="794662951"
 supported_version="1.3.*"
