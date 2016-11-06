@@ -1,7 +1,7 @@
 ﻿l_english:
 
  # Species traits
- trait_craven:0 "Pacifique"
+ trait_craven:0 "Lache"
  trait_craven_desc:0 "Cette espèce est dépourvu d'attributs physiques et mentales efficace pour ce qui est de faire la guerre."
  trait_primitif:0 "Primitif"
  trait_primitif_desc:0 "Cette espèce est possède des capacités cognitifs inférieurs aux autre espèce ayant maitrisé le voyage spatial."

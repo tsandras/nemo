@@ -86,7 +86,7 @@ trait_resourceful = {
 }
 
 trait_extremely_communal = {
-	cost = 3
+	cost = 4
 	icon = "gfx/interface/icons/traits/trait_communal.dds"
 	opposites = { "trait_solitary" "trait_communal" }
 	
