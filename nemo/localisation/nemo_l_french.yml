@@ -41,6 +41,8 @@
  sr_spice_desc:0 "L'épice de prescience"
  sr_singularity:0 "Micro-singularité"
  sr_singularity_desc:0 "Une singularité métaphysique"
+ sr_betharian_crystal:0 "Cristal Betharian"
+ sr_betharian_crystal_desc:0 "Du cristal Betharian"
 
  # Technologies
  tech_mine_spice:0 "Raffinage d'épice"

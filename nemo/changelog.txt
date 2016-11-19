@@ -1,4 +1,4 @@
-Nemo Mod
+Nemo Mod 1.1
 
 Traits d'espèces (11)
 
@@ -204,6 +204,7 @@ Centrale d'accumulation
 Temps de construction : 180j
 Coût : 120m
 Technologie : Stockage d'énergie avancée
+Requit : Cristal Betharian sur la case.
 Produit : +1 d'énergie sur les cases adjacentes. +1000 d'énergie max.
 Description rp : Ce bâtiment permet l'exploit d'accumuler des quantités phénoménales d'énergie.
 
@@ -225,7 +226,7 @@ Renforcement administratif
 Type : Empire
 Technologie nécessaire : Communication interplanétaire
 Influence : -1
-Effet : +2 Core planet system
+Effet : +1 Core planet system, -5% divergence
 Restriction : Ne pas avoir activé La Grande administration
 Description rp : Un effort important est fait pour garder en contact permanent via des communications subluminique l’ensemble des colonies de la nation.
 
@@ -233,7 +234,7 @@ La Grande administration
 Type : Empire
 Technologie nécessaire : Communication interplanétaire longue portée
 Influence : -2
-Effet : +5 Core planet system
+Effet : +3 Core planet system, -5% divergence
 Restriction : Ne pas avoir activé Renforcement administratif
 Description rp : Un effort important est fait pour garder en contact permanent via des communications subluminique l’ensemble des colonies de la nation.
 

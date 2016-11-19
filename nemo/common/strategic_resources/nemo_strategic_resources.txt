@@ -9,8 +9,15 @@ sr_spice = {
   AI_category = strategic_resource
 }
 
-# Prescience spice
+# Singularity
 sr_singularity = {
+  is_rare = yes
+  is_planet_local = yes
+  AI_category = strategic_resource
+}
+
+# Cristal Betharian
+sr_betharian_crystal = {
   is_rare = yes
   is_planet_local = yes
   AI_category = strategic_resource

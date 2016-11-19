@@ -113,6 +113,27 @@ building_energy_silo_1 = {
     resource_energy_add = 1
   }
   
-  upgrades = {
+  allow = {
+    AND = {
+      custom_tooltip_fail = {
+        text = "requires_building_capital_1"
+        planet = {
+          OR = {
+            has_building = "building_capital_1"
+            has_building = "building_capital_2"
+            has_building = "building_capital_3"
+          }
+        }
+      }
+      custom_tooltip_fail = {
+        text = "requires_crystal_betharian"
+        tile = {
+          has_resource = {
+            type = sr_betharian_crystal
+            amount > 0
+          }
+        }
+      }
+    }
   }
 }

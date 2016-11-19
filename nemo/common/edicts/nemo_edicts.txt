@@ -39,7 +39,8 @@ country_edict = {
 country_edict = {
   name = "effective_administration"
   modifier = {
-    country_core_sector_system_cap = 2
+    pop_ethic_shift = -0.05
+    country_core_sector_system_cap = 1
   }
   
   influence_cost = 1
@@ -62,7 +63,8 @@ country_edict = {
 country_edict = {
   name = "grand_administration"
   modifier = {
-    country_core_sector_system_cap = 5
+    pop_ethic_shift = -0.05
+    country_core_sector_system_cap = 3
   }
   
   influence_cost = 2

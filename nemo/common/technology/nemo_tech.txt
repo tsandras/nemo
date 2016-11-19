@@ -107,12 +107,12 @@ tech_mine_singularity = {
 
 #Effective administration
 tech_interplanetary_communication = {
-  cost = @tier1cost3
+  cost = @tier1cost2
   area = society
   tier = 1
   category = { statecraft }
   prerequisites = { "tech_planetary_unification" }
-  weight = @tier1weight3
+  weight = @tier1weight2
   
   weight_modifier = {
     factor = 2
@@ -135,10 +135,6 @@ tech_interplanetary_communication_long_range = {
   prerequisites = { "tech_interplanetary_communication" }
   is_rare = yes
   weight = @tier1weight4
-
-  modifier = {
-    pop_ethic_shift = -0.05
-  }
   
   weight_modifier = {
     factor = 2
@@ -173,7 +169,20 @@ tech_energy_silo_1 = {
       research_leader = {
         area = engineering
         has_trait = "leader_trait_expertise_industry"
-      }     
+      }
+    }
+    modifier = {
+      factor = 1
+      NOT = {
+        any_owned_planet = {
+          any_tile = {
+            has_resource = {
+              type = sr_betharian_crystal
+              amount > 0
+            }
+          }
+        }
+      }
     }
   }
   
